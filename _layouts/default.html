@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>{{ page.title }}</title>
+        <meta name="viewport" content="width=device-width">
+
+        <!-- syntax highlighting CSS -->
+        <link rel="stylesheet" href="/css/syntax.css">
+
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="/css/main.css">
+
+    </head>
+    <body>
+        <div class="container">
+          <div class="site header">
+            <div id="headericons">
+              <img src="/images/github.png">
+              <img src="/images/linkedin.png">
+              <img src="/images/twitter.png">
+              <img src="/images/email.png">
+            </div>
+            <div class="header" id='headerlogo'>
+              <h1><a href="/">{{ site.name }}</a></h1>
+            </div>
+     
+                {{ content }}
+
+            <div class="footer">
+              <p>&copy Addison Huddy. Made in California</p>
+            </div>
+            </div>
+          </div>
+        </div> <!-- /container -->
+    </body>
+</html>
