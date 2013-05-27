@@ -1,0 +1,14 @@
+---
+layout: post
+title:  "New Website"
+date:   2013-05-24 12:14:14
+categories: random
+---
+
+Excited to now being using Jekyll to power my blog.  The startup costs are high, however, it does give me a lot of freedom and flexibility.  The downside is that the framework is a bit confusing, too me a few hours to fully get it.
+
+Hoping to use this site for whatever I have on my mind.
+
+Let me know what you think . . . 
+
+-Addison

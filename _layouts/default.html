@@ -16,23 +16,25 @@
     <body>
         <div class="container">
           <div class="site header">
-            <div id="headericons">
-              <img src="/images/github.png">
-              <img src="/images/linkedin.png">
-              <img src="/images/twitter.png">
-              <img src="/images/email.png">
+            <div id="about">
+              <a id="about" href="/about"><img src="/images/about.png"></a>
+            </div>
+
+            <div id="iconsright">
+              <a id="headericons" href="http://www.github.com/addisonhuddy"><img src="/images/github.png"></a>
+              <a id="headericons" href="http://www.twitter.com/addisonhuddy"><img src="/images/twitter.png"></a>
+              <a id="headericons" href="http://www.linkedin.com/in/addisonhuddy"><img src="/images/linkedin.png"></a>
+              <a id="headericons" href="mailto:addisonhuddy@gmail.com"><img src="/images/email.png"></a>
             </div>
             <div class="header" id='headerlogo'>
-              <h1><a href="/">{{ site.name }}</a></h1>
+              <h1><a href="/">A D D I S O N H U D D Y</a><h1>
             </div>
-     
-                {{ content }}
 
-            <div class="footer">
-              <p>&copy Addison Huddy. Made in California</p>
-            </div>
-            </div>
+                {{ content }}
+          <div class="footer">
+            &copy Addison Huddy. Made in California. Opinions are my own.
           </div>
-        </div> <!-- /container -->
+        </div> 
+      </div> <!-- /container -->
     </body>
 </html>

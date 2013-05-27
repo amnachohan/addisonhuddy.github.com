@@ -12,24 +12,25 @@
 
 html, body { 
   height: 100%; 
-  background: url('/images/textured_paper.png');
+  background: url('/images/noisy_grid.png');
 }
 
 body {
-  font: 13.34px Helvetica, Arial, sans-serif;
+  font: 13px Helvetica, Arial, sans-serif;
   font-size: small;
   text-align: center;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-size: 100%; }
 
-h1 { margin-bottom: 1em; }
-p { margin: 1em 0; }
+h1 { margin-bottom: 20px; }
+p { 
+  margin: 1em 0;
+  font-size: 90%;
+}
 
 a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a:hover   { color: orange; }
+a:visited { color: orange; }
 
 table {
   font-size: inherit;
@@ -63,36 +64,28 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 115%;
+  font-size: 100%;
   text-align: justify;
-  width: 42em;
+  max-width: 45em;
   margin: 1em auto;
   line-height: 1.5em;
-}
-
-#headerlogo {
-  text-align: center;
-  font-size: 500%
-}
-
-#headericons {
-  text-align: right;
-  opacity: .35;
-  margin-bottom: 20px;
+  min-height: 100%;
+  margin-bottom: 100px;
+  clear: both;
 }
 
 .site .header a {
-  font-weight: bold;
-  text-decoration: none;
-  text-align: center;
-  text-shadow: 0px 1px 1px #f2f2f2;
-  color: #A3A3A3;
-
+  background-color: #565656;
+  color: transparent;
+  text-shadow: 0px 1px 2px #B5B5B5;
+  -webkit-background-clip: text;
+     -moz-background-clip: text;
+          background-clip: text;
 }
+
 
 .site .header h1.title {
   display: inline-block;
-  margin-bottom: 2em;
 }
 
 .site .header h1.title a {
@@ -113,37 +106,19 @@ ul.posts span {
 }
 
 .site .meta {
-  color: #aaa;
+  color: grey;
 }
 
 .site .footer {
   font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+  border-top: 2px solid grey;
   margin-top: 2em;
-  overflow: hidden;
   position: absolute;
-  bottom: 0;
+  bottom: 0px;
 }
 
-.site .footer .contact {
-  float: left;
-  margin-right: 3em;
-}
 
-.site .footer .contact a {
-  color: #8085C1;
-}
-
-.site .footer .rss {
-  margin-top: 1.1em;
-  margin-right: -.2em;
-  float: right;
-}
-
-.site .footer .rss img {
-  border: 0;
-}
 
 /*****************************************************************************/
 /*
@@ -181,4 +156,38 @@ ul.posts span {
 
 #post pre.terminal code {
   background-color: #333;
+}
+
+.right {
+  float: right;
+}
+
+/* IDs */
+
+#about {
+  float: left;
+  opacity: .6; 
+}
+
+#about:hover {
+  opacity: .8; 
+}
+
+#headerlogo {
+  text-align: center;
+  font-size: 200%;
+  margin-bottom: 50px
+}
+
+#iconsright {
+  text-align: right;
+  margin-bottom: 20px;
+}
+
+#headericons {
+  opacity: .35; 
+}
+
+#headericons:hover {
+  opacity: .7; 
 }
