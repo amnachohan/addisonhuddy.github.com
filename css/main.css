@@ -64,7 +64,7 @@ ul.posts span {
 /*****************************************************************************/
 
 .site {
-  font-size: 100%;
+  font-size: 115%;
   text-align: justify;
   max-width: 45em;
   margin: 1em auto;
@@ -127,6 +127,10 @@ ul.posts span {
 /*****************************************************************************/
 
 /* standard */
+#post {
+  margin-bottom: 10px;
+}
+
 #post pre {
   border: 1px solid #ddd;
   background-color: #eef;
@@ -190,4 +194,8 @@ ul.posts span {
 
 #headericons:hover {
   opacity: .7; 
+}
+
+#disqus_thread {
+  font-size: 80%
 }

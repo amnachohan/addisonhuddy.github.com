@@ -1,5 +1,6 @@
 ---
 layout: post
+comments: true
 title:  "New Website"
 date:   2013-05-24 12:14:14
 categories: random
